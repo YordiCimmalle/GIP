@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>It-Tapas on GIP 2015-2016 Yordi Coussement</title>
+    <link>http://yordicimmalle.github.io/GIP/it-tapa/</link>
+    <description>Recent content in It-Tapas on GIP 2015-2016 Yordi Coussement</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Oct 2015 18:07:12 +0200</lastBuildDate>
+    <atom:link href="http://yordicimmalle.github.io/GIP/it-tapa/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>IT-Tapa sessie</title>
+      <link>http://yordicimmalle.github.io/GIP/it-tapa/sessie/</link>
+      <pubDate>Fri, 16 Oct 2015 18:06:36 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/it-tapa/sessie/</guid>
+      <description>
+
+&lt;h1 id=&#34;coming-soon:b30cedf8a13051dd7c7f0ae239d0d8d2&#34;&gt;Coming Soon!&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IT-Tapa instructiefilmpje</title>
+      <link>http://yordicimmalle.github.io/GIP/it-tapa/filmpje/</link>
+      <pubDate>Fri, 16 Oct 2015 18:07:12 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/it-tapa/filmpje/</guid>
+      <description>
+
+&lt;h1 id=&#34;coming-soon:f12406970f5cc3d2287ebefdbaf24cd1&#34;&gt;Coming Soon!&lt;/h1&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

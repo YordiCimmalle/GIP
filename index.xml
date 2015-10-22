@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GIP 2015-2016 Yordi Coussement</title>
+    <link>http://yordicimmalle.github.io/GIP/</link>
+    <description>Recent content on GIP 2015-2016 Yordi Coussement</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Oct 2015 18:00:00 +0200</lastBuildDate>
+    <atom:link href="http://yordicimmalle.github.io/GIP/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://yordicimmalle.github.io/GIP/stage/stage/</link>
+      <pubDate>Tue, 20 Oct 2015 18:00:00 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/stage/stage/</guid>
+      <description>
+
+&lt;h2 id=&#34;welkom-op-de-stage-website-van-yordi-coussement:1fc991c2339cc4c57580c86792b1bfd7&#34;&gt;Welkom op de stage-website van Yordi Coussement.&lt;/h2&gt;
+
+&lt;p&gt;Op deze website kan u alle verslagen terugvinden die elke dag na de stage geschreven zullen worden. Deze verslagen zijn te lezen vanaf maandag 11 januari 2016.&lt;/p&gt;
+
+&lt;p&gt;Wanneer u op &amp;lsquo;Home&amp;rsquo; klikt, zal u terug op de hoofdpagina terecht komen. Als u op &amp;lsquo;Start&amp;rsquo; klikt, komt u weer terecht op de pagina van deze post.&lt;/p&gt;
+
+&lt;h3 id=&#34;veel-leesplezier:1fc991c2339cc4c57580c86792b1bfd7&#34;&gt;Veel leesplezier!&lt;/h3&gt;
+
+&lt;p&gt;~Yordi Coussement~&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Workflow vergelijken</title>
+      <link>http://yordicimmalle.github.io/GIP/software/workflow/</link>
+      <pubDate>Sun, 18 Oct 2015 16:38:21 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/software/workflow/</guid>
+      <description>
+
+&lt;h2 id=&#34;links:7b3ce5b849b571e162bc8896a9240e7b&#34;&gt;Links&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gitlab.com/yordi-coussement/GIP_2015-2016_Yordi_Coussement&#34; target=&#34;_blank&#34;&gt;Gitlab&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/YordiCimmalle/GIP&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yordicimmalle.github.io/GIP&#34; target=&#34;_blank&#34;&gt;Github Pages&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;verschil-tussen-hugo-en-een-klassieke-wordpress-website:7b3ce5b849b571e162bc8896a9240e7b&#34;&gt;Verschil tussen Hugo en een klassieke Wordpress website:&lt;/h2&gt;
+
+&lt;p&gt;Om eerlijk te zijn&amp;hellip; Ik heb Wordpress nog niet echt intensief gebruikt, maar wel al om eens te bekijken wat het juist kan. Ik ga dus mijn best doen om het verschil zo goed mogelijk te verwoorden.&lt;/p&gt;
+
+&lt;p&gt;Wanneer je bij een Hugo website iets wil aanpassen aan de layout moet je code bewerken in de layout map en in de static map. Voor de content maak je verschillende markdown -of yamlbestandjes aan in de content-map. In de layout map staan de verschillende componenten (partials) en in de static kan je vooral css en javascript terugvinden.&lt;/p&gt;
+
+&lt;p&gt;Bij een Wordpress website kan je alles via de browser bewerken. Je klikt gewoon op het bericht dat je wil bewerken en een hele hoop toepassingen staan ter beschikking. Bij Wordpress is het niet zo belangrijk om op de hoogte te zijn van de code, maar bij Hugo moet je er wel van op de hoogte zijn. Uiteraard is het wel een meerwaarde bij Wordpress als je iets van code afweet. Het biedt je zo meer mogelijkheden.&lt;/p&gt;
+
+&lt;h2 id=&#34;directory-structuur-website:7b3ce5b849b571e162bc8896a9240e7b&#34;&gt;Directory-structuur website:&lt;/h2&gt;
+
+&lt;p&gt;In de content-map van mijn website staan alle markdown bestandjes waarin ik de tekst aan kan passen van mijn posts. Ik heb voor elke taak een nieuw bestandje in de bijhorende map. Bijvoorbeeld de FAQ in het Frans staat in de map &amp;lsquo;Frans&amp;rsquo;. Zo kan ik elke taak netjes gestructureerd terugvinden. In de map &amp;lsquo;stage&amp;rsquo; zal ik alle stageverslagen plaatsen wanneer de stageperiode begint. Deze hangt samen met een list waardoor alles mooi onder elkaar komt te staan op datum.&lt;/p&gt;
+
+&lt;p&gt;In de layout-map staan nog eens de mappen zoals ze in de content map staan, maar dan zonder de markdownbestandjes. Hier staan single.html documenten in die de opmaak weergeven voor de pagina die u te zien zal krijgen. Bij &amp;lsquo;partials&amp;rsquo; staan de bepaalde sections van mijn site. Neem nu about.html als voorbeeld. Dit verwijst naar de info op de hoofdpagina waar u de link &amp;lsquo;Ga naar GIP&amp;rsquo; en &amp;lsquo;Ga naar Stage&amp;rsquo; terug kan vinden. De Sidebar, footer en head_hyde staan voor de layout van de GIP pagina. De sidebar2, footer en head_hyde2 staan voor de layout van de Stage pagina.
+In de static map kan je de CSS en javascript bestanden terugvinden.&lt;/p&gt;
+
+&lt;p&gt;Ik heb 2 thema&amp;rsquo;s samengevoegd, maar heb wel heel veel aangepast. Bijna niets is nog in zijn standaard vorm. Op de ene plaats is er gewoon een kleurtje aangepast en op de andere plaats is eigenlijk alles anders.&lt;/p&gt;
+
+&lt;h3 id=&#34;moeilijkheden:7b3ce5b849b571e162bc8896a9240e7b&#34;&gt;Moeilijkheden:&lt;/h3&gt;
+
+&lt;p&gt;Ik heb de eerste lessen heel wat problemen ondervonden bij de werking van Hugo. Ik begreep absoluut niet waar ik wat kon vinden. Na heel wat uit te proberen begon het te beteren en plots ging het heel vlot. Mijn website kreeg vorm en alles leek te lukken. Uiteindelijk heb ik 2 thema&amp;rsquo;s samengevoegd.
+Bij het publiceren van de website heb ik ook heel wat problemen gehad. Github wilde mijn website niet weergeven zoals het zou moeten, maar uiteindelijk is het dan toch gelukt.&lt;/p&gt;
+
+&lt;h3 id=&#34;heb-ik-iets-bijgeleerd-en-zou-ik-hugo-nog-gebruiken-in-de-toekomst:7b3ce5b849b571e162bc8896a9240e7b&#34;&gt;Heb ik iets bijgeleerd en zou ik Hugo nog gebruiken in de toekomst?&lt;/h3&gt;
+
+&lt;p&gt;Ik heb heel wat bijgeleerd tijdens het maken van mijn website. Ik leerde heel wat nieuwe code bij een ook een nieuwe codetaal namelijk GO. Ik heb meer inzicht gekregen in de code en de structuur ervan.&lt;/p&gt;
+
+&lt;p&gt;Zou ik Hugo ooit nog eens gebruiken? Ik denk het wel! Het is een leuke manier om website&amp;rsquo;s te maken, het is leerrijk en je kan er mooie eindresultaten mee bereiken.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IT-Tapa Instruction video: The English Way</title>
+      <link>http://yordicimmalle.github.io/GIP/engels/movie/</link>
+      <pubDate>Fri, 16 Oct 2015 18:53:08 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/engels/movie/</guid>
+      <description>
+
+&lt;h1 id=&#34;coming-soon:44684454d38aa08e0c5bdd879390002b&#34;&gt;Coming Soon!&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>La Foire aux Questions du Centre d&#39;Assistance</title>
+      <link>http://yordicimmalle.github.io/GIP/frans/faq/</link>
+      <pubDate>Fri, 16 Oct 2015 18:37:56 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/frans/faq/</guid>
+      <description>
+
+&lt;h1 id=&#34;coming-soon:4a1318da06786ac52626178ca960109e&#34;&gt;Coming Soon!&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IT-autobiography</title>
+      <link>http://yordicimmalle.github.io/GIP/engels/autobiography/</link>
+      <pubDate>Fri, 16 Oct 2015 18:35:23 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/engels/autobiography/</guid>
+      <description>
+
+&lt;h1 id=&#34;coming-soon:4b73aea01fbf0686bd29221adaac10d5&#34;&gt;Coming Soon!&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IT-Tapa instructiefilmpje</title>
+      <link>http://yordicimmalle.github.io/GIP/it-tapa/filmpje/</link>
+      <pubDate>Fri, 16 Oct 2015 18:07:12 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/it-tapa/filmpje/</guid>
+      <description>
+
+&lt;h1 id=&#34;coming-soon:f12406970f5cc3d2287ebefdbaf24cd1&#34;&gt;Coming Soon!&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IT-Tapa sessie</title>
+      <link>http://yordicimmalle.github.io/GIP/it-tapa/sessie/</link>
+      <pubDate>Fri, 16 Oct 2015 18:06:36 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/it-tapa/sessie/</guid>
+      <description>
+
+&lt;h1 id=&#34;coming-soon:b30cedf8a13051dd7c7f0ae239d0d8d2&#34;&gt;Coming Soon!&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>info</title>
+      <link>http://yordicimmalle.github.io/GIP/page/info/</link>
+      <pubDate>Tue, 13 Oct 2015 15:02:19 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/page/info/</guid>
+      <description>
+
+&lt;h1 id=&#34;welkom-op-deze-webiste:6287b96b2ebce4bb09e860d1e6de8b04&#34;&gt;Welkom op deze webiste&lt;/h1&gt;
+
+&lt;p&gt;Deze website zal gebruikt worden om alle GIP taken te uploaden&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Welkom</title>
+      <link>http://yordicimmalle.github.io/GIP/page/gip/</link>
+      <pubDate>Tue, 13 Oct 2015 15:02:19 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/page/gip/</guid>
+      <description>
+
+&lt;h2 id=&#34;welkom-op-de-gip-website-van-yordi-coussement:da16b3234b6355be9661328f9fb02a58&#34;&gt;Welkom op de GIP-website van Yordi Coussement.&lt;/h2&gt;
+
+&lt;p&gt;Op deze website kan u alle taken terugvinden van mijn GIP. Klik in het menu op de taak die u wil zien.&lt;/p&gt;
+
+&lt;p&gt;Waneer u op &amp;lsquo;Home&amp;rsquo; klikt, zal u terug op de hoofdpagina terecht komen. Als u op &amp;lsquo;Start&amp;rsquo; klikt, komt u weer terecht op de pagina van deze post.&lt;/p&gt;
+
+&lt;h3 id=&#34;veel-lees-en-kijkplezier:da16b3234b6355be9661328f9fb02a58&#34;&gt;Veel lees -en kijkplezier!&lt;/h3&gt;
+
+&lt;p&gt;~Yordi Coussement~&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

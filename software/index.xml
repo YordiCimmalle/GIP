@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Softwares on GIP 2015-2016 Yordi Coussement</title>
+    <link>http://yordicimmalle.github.io/GIP/software/</link>
+    <description>Recent content in Softwares on GIP 2015-2016 Yordi Coussement</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Oct 2015 16:38:21 +0200</lastBuildDate>
+    <atom:link href="http://yordicimmalle.github.io/GIP/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Workflow vergelijken</title>
+      <link>http://yordicimmalle.github.io/GIP/software/workflow/</link>
+      <pubDate>Sun, 18 Oct 2015 16:38:21 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/software/workflow/</guid>
+      <description>
+
+&lt;h2 id=&#34;links:7b3ce5b849b571e162bc8896a9240e7b&#34;&gt;Links&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gitlab.com/yordi-coussement/GIP_2015-2016_Yordi_Coussement&#34; target=&#34;_blank&#34;&gt;Gitlab&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/YordiCimmalle/GIP&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yordicimmalle.github.io/GIP&#34; target=&#34;_blank&#34;&gt;Github Pages&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;verschil-tussen-hugo-en-een-klassieke-wordpress-website:7b3ce5b849b571e162bc8896a9240e7b&#34;&gt;Verschil tussen Hugo en een klassieke Wordpress website:&lt;/h2&gt;
+
+&lt;p&gt;Om eerlijk te zijn&amp;hellip; Ik heb Wordpress nog niet echt intensief gebruikt, maar wel al om eens te bekijken wat het juist kan. Ik ga dus mijn best doen om het verschil zo goed mogelijk te verwoorden.&lt;/p&gt;
+
+&lt;p&gt;Wanneer je bij een Hugo website iets wil aanpassen aan de layout moet je code bewerken in de layout map en in de static map. Voor de content maak je verschillende markdown -of yamlbestandjes aan in de content-map. In de layout map staan de verschillende componenten (partials) en in de static kan je vooral css en javascript terugvinden.&lt;/p&gt;
+
+&lt;p&gt;Bij een Wordpress website kan je alles via de browser bewerken. Je klikt gewoon op het bericht dat je wil bewerken en een hele hoop toepassingen staan ter beschikking. Bij Wordpress is het niet zo belangrijk om op de hoogte te zijn van de code, maar bij Hugo moet je er wel van op de hoogte zijn. Uiteraard is het wel een meerwaarde bij Wordpress als je iets van code afweet. Het biedt je zo meer mogelijkheden.&lt;/p&gt;
+
+&lt;h2 id=&#34;directory-structuur-website:7b3ce5b849b571e162bc8896a9240e7b&#34;&gt;Directory-structuur website:&lt;/h2&gt;
+
+&lt;p&gt;In de content-map van mijn website staan alle markdown bestandjes waarin ik de tekst aan kan passen van mijn posts. Ik heb voor elke taak een nieuw bestandje in de bijhorende map. Bijvoorbeeld de FAQ in het Frans staat in de map &amp;lsquo;Frans&amp;rsquo;. Zo kan ik elke taak netjes gestructureerd terugvinden. In de map &amp;lsquo;stage&amp;rsquo; zal ik alle stageverslagen plaatsen wanneer de stageperiode begint. Deze hangt samen met een list waardoor alles mooi onder elkaar komt te staan op datum.&lt;/p&gt;
+
+&lt;p&gt;In de layout-map staan nog eens de mappen zoals ze in de content map staan, maar dan zonder de markdownbestandjes. Hier staan single.html documenten in die de opmaak weergeven voor de pagina die u te zien zal krijgen. Bij &amp;lsquo;partials&amp;rsquo; staan de bepaalde sections van mijn site. Neem nu about.html als voorbeeld. Dit verwijst naar de info op de hoofdpagina waar u de link &amp;lsquo;Ga naar GIP&amp;rsquo; en &amp;lsquo;Ga naar Stage&amp;rsquo; terug kan vinden. De Sidebar, footer en head_hyde staan voor de layout van de GIP pagina. De sidebar2, footer en head_hyde2 staan voor de layout van de Stage pagina.
+In de static map kan je de CSS en javascript bestanden terugvinden.&lt;/p&gt;
+
+&lt;p&gt;Ik heb 2 thema&amp;rsquo;s samengevoegd, maar heb wel heel veel aangepast. Bijna niets is nog in zijn standaard vorm. Op de ene plaats is er gewoon een kleurtje aangepast en op de andere plaats is eigenlijk alles anders.&lt;/p&gt;
+
+&lt;h3 id=&#34;moeilijkheden:7b3ce5b849b571e162bc8896a9240e7b&#34;&gt;Moeilijkheden:&lt;/h3&gt;
+
+&lt;p&gt;Ik heb de eerste lessen heel wat problemen ondervonden bij de werking van Hugo. Ik begreep absoluut niet waar ik wat kon vinden. Na heel wat uit te proberen begon het te beteren en plots ging het heel vlot. Mijn website kreeg vorm en alles leek te lukken. Uiteindelijk heb ik 2 thema&amp;rsquo;s samengevoegd.
+Bij het publiceren van de website heb ik ook heel wat problemen gehad. Github wilde mijn website niet weergeven zoals het zou moeten, maar uiteindelijk is het dan toch gelukt.&lt;/p&gt;
+
+&lt;h3 id=&#34;heb-ik-iets-bijgeleerd-en-zou-ik-hugo-nog-gebruiken-in-de-toekomst:7b3ce5b849b571e162bc8896a9240e7b&#34;&gt;Heb ik iets bijgeleerd en zou ik Hugo nog gebruiken in de toekomst?&lt;/h3&gt;
+
+&lt;p&gt;Ik heb heel wat bijgeleerd tijdens het maken van mijn website. Ik leerde heel wat nieuwe code bij een ook een nieuwe codetaal namelijk GO. Ik heb meer inzicht gekregen in de code en de structuur ervan.&lt;/p&gt;
+
+&lt;p&gt;Zou ik Hugo ooit nog eens gebruiken? Ik denk het wel! Het is een leuke manier om website&amp;rsquo;s te maken, het is leerrijk en je kan er mooie eindresultaten mee bereiken.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
