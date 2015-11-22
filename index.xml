@@ -21,7 +21,7 @@
 
 &lt;p&gt;Op deze website kan u alle verslagen terugvinden die elke dag na de stage geschreven zullen worden. Deze verslagen zijn te lezen vanaf maandag 11 januari 2016.&lt;/p&gt;
 
-&lt;p&gt;Wanneer u op &amp;lsquo;Home&amp;rsquo; klikt, zal u terug op de hoofdpagina terecht komen. Als u op &amp;lsquo;Start&amp;rsquo; klikt, komt u weer terecht op de pagina van deze post.&lt;/p&gt;
+&lt;p&gt;Wanneer u op &amp;lsquo;Home&amp;rsquo; klikt, zal u terug op de hoofdpagina terecht komen. Als u op &amp;lsquo;GIP&amp;rsquo; klikt, komt u terecht op de pagina met de verschillende GIP taken.&lt;/p&gt;
 
 &lt;h3 id=&#34;veel-leesplezier:1fc991c2339cc4c57580c86792b1bfd7&#34;&gt;Veel leesplezier!&lt;/h3&gt;
 
@@ -55,10 +55,21 @@
 
 &lt;h2 id=&#34;directory-structuur-website:7b3ce5b849b571e162bc8896a9240e7b&#34;&gt;Directory-structuur website:&lt;/h2&gt;
 
-&lt;p&gt;In de content-map van mijn website staan alle markdown bestandjes waarin ik de tekst aan kan passen van mijn posts. Ik heb voor elke taak een nieuw bestandje in de bijhorende map. Bijvoorbeeld de FAQ in het Frans staat in de map &amp;lsquo;Frans&amp;rsquo;. Zo kan ik elke taak netjes gestructureerd terugvinden. In de map &amp;lsquo;stage&amp;rsquo; zal ik alle stageverslagen plaatsen wanneer de stageperiode begint. Deze hangt samen met een list waardoor alles mooi onder elkaar komt te staan op datum.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In de &lt;code&gt;content-map&lt;/code&gt; van mijn website staan alle markdown bestandjes waarin ik de tekst aan kan passen van mijn posts. Ik heb voor elke taak een nieuw bestandje in de bijhorende map. Bijvoorbeeld de FAQ in het Frans staat in de map &amp;lsquo;Frans&amp;rsquo;. Zo kan ik elke taak netjes gestructureerd terugvinden.&lt;/li&gt;
 
-&lt;p&gt;In de layout-map staan nog eens de mappen zoals ze in de content map staan, maar dan zonder de markdownbestandjes. Hier staan single.html documenten in die de opmaak weergeven voor de pagina die u te zien zal krijgen. Bij &amp;lsquo;partials&amp;rsquo; staan de bepaalde sections van mijn site. Neem nu about.html als voorbeeld. Dit verwijst naar de info op de hoofdpagina waar u de link &amp;lsquo;Ga naar GIP&amp;rsquo; en &amp;lsquo;Ga naar Stage&amp;rsquo; terug kan vinden. De Sidebar, footer en head_hyde staan voor de layout van de GIP pagina. De sidebar2, footer en head_hyde2 staan voor de layout van de Stage pagina.
-In de static map kan je de CSS en javascript bestanden terugvinden.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;In de &lt;code&gt;stage-map&lt;/code&gt; zal ik alle stageverslagen plaatsen wanneer de stageperiode begint. Deze hangt samen met een list waardoor alles mooi onder elkaar komt te staan op datum.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In de &lt;code&gt;layout-map&lt;/code&gt; staan nog eens de mappen zoals ze in de &lt;code&gt;content-map&lt;/code&gt; staan, maar dan zonder de markdownbestandjes. Hier staan &lt;code&gt;single.html&lt;/code&gt; documenten in die de opmaak weergeven voor de pagina die u te zien zal krijgen.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Bij &lt;code&gt;partials&lt;/code&gt; staan de bepaalde sections van mijn site. Neem nu &lt;code&gt;about.html&lt;/code&gt; als voorbeeld. Dit verwijst naar de info op de hoofdpagina waar u de link &amp;lsquo;Ga naar GIP&amp;rsquo; en &amp;lsquo;Ga naar Stage&amp;rsquo; terug kan vinden.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;De &lt;code&gt;Sidebar&lt;/code&gt;, &lt;code&gt;footer&lt;/code&gt; en &lt;code&gt;head_hyde&lt;/code&gt; staan voor de layout van de GIP pagina.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;De &lt;code&gt;sidebar2&lt;/code&gt;, &lt;code&gt;footer&lt;/code&gt; en &lt;code&gt;head_hyde2&lt;/code&gt; staan voor de layout van de Stage pagina.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In de &lt;code&gt;static-map&lt;/code&gt; kan je de CSS en javascript bestanden terugvinden.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Ik heb 2 thema&amp;rsquo;s samengevoegd, maar heb wel heel veel aangepast. Bijna niets is nog in zijn standaard vorm. Op de ene plaats is er gewoon een kleurtje aangepast en op de andere plaats is eigenlijk alles anders.&lt;/p&gt;
 
@@ -69,7 +80,7 @@ Bij het publiceren van de website heb ik ook heel wat problemen gehad. Github wi
 
 &lt;h3 id=&#34;heb-ik-iets-bijgeleerd-en-zou-ik-hugo-nog-gebruiken-in-de-toekomst:7b3ce5b849b571e162bc8896a9240e7b&#34;&gt;Heb ik iets bijgeleerd en zou ik Hugo nog gebruiken in de toekomst?&lt;/h3&gt;
 
-&lt;p&gt;Ik heb heel wat bijgeleerd tijdens het maken van mijn website. Ik leerde heel wat nieuwe code bij en ook een nieuwe codetaal namelijk GO. Ik heb meer inzicht gekregen in de code en de structuur ervan.&lt;/p&gt;
+&lt;p&gt;Ik heb heel wat bijgeleerd tijdens het maken van mijn website. Ik leerde heel wat nieuwe code bij en ook een nieuwe codetaal namelijk &lt;code&gt;GO&lt;/code&gt;. Ik heb meer inzicht gekregen in de code en de structuur ervan.&lt;/p&gt;
 
 &lt;p&gt;Zou ik Hugo ooit nog eens gebruiken? Ik denk het wel! Het is een leuke manier om website&amp;rsquo;s te maken, het is leerrijk en je kan er mooie eindresultaten mee bereiken.&lt;/p&gt;
 </description>
