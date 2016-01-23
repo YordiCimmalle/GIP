@@ -6,8 +6,91 @@
     <description>Recent content on GIP 2015-2016 Yordi Coussement</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Jan 2016 20:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 22 Jan 2016 20:00:00 +0200</lastBuildDate>
     <atom:link href="http://yordicimmalle.github.io/GIP/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://yordicimmalle.github.io/GIP/stage/dag%2010/</link>
+      <pubDate>Fri, 22 Jan 2016 20:00:00 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/stage/dag%2010/</guid>
+      <description>
+
+&lt;h2 id=&#34;stageverslag-2016-01-22-vrijdag:c1e875ef8ce209faf099a2c5b59cac69&#34;&gt;Stageverslag 2016-01-22 (Vrijdag)&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;De laatste stagedag was een vrij leuke dag. Ik heb me vooral beziggehouden met het afwerken van enkele taken die ik doorheen de 2 weken gekregen had. Ik heb nog heel wat op de virtuele server zitten uittesten en heb uiteindelijk nog 1 experiment mogen installeren op de echte servers. Ik heb ook in het serverlokaal nog wat geholpen met wat labels te hangen.
+In de namiddag heb ik de laatste laptop in orde gemaakt en mijn GIP taken nog nagekeken voor het geval ik iets vergeten zou zijn.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Wanneer de dag voorbij was, heb ik mijn collega’s nog eens uitgebreid bedankt voor hun hulp de voorbije 2 weken en voor het werk dat ik heb mogen meedoen.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Nu kan ik terugkijken op een positieve stageperiode waarin ik enorm veel heb bijgeleerd.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://yordicimmalle.github.io/GIP/stage/dag%209/</link>
+      <pubDate>Thu, 21 Jan 2016 20:00:00 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/stage/dag%209/</guid>
+      <description>
+
+&lt;h2 id=&#34;stageverslag-2016-01-21-donderdag:e5669e11e8bdaa0bf920ad43f1d4b36f&#34;&gt;Stageverslag 2016-01-21 (Donderdag)&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Op de voorlaatste dag van de stageperiode was het goed te merken dat het bijna gedaan is. Ik ben vooral bezig geweest met de laatste stukken van de GIP taken af te werken en met het afwerken van de taken die ik hier gekregen heb. Een deel ervan moet ik morgen nog verderzetten. Ik heb in de voormiddag samengezeten met mijn stagementor voor de Case Study taak over Citrix. Wanneer dit gedaan was heb ik alles netjes uitgetypt en laten nalezen door mijn stagementor zodat ik zeker niets zeg wat niet klopt. Daarna ben ik bij verschillende medewerkers geweest voor de taak van bedrijfsbeheer omdat het over verschillende aspecten ging zoals boekhouding, marketing, aankoop,&amp;hellip;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;In de namiddag ben ik eigenlijk de hele tijd bezig geweest met een virtuele server en een virtuele client. Eerst heb ik de client in een virtueel domein gestoken en dan enkele zaken uitgetest die men hier ook op de echte server wil doen. Een voorbeeld is dat ik moest testen of het mogelijk was om de internet opties in te stellen via Group Policy Management. Dit had ik dan gevonden en uitgevoerd, maar om een of andere reden neemt de client deze policy niet aan. Hier is dus verder onderzoek nog nodig.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://yordicimmalle.github.io/GIP/stage/dag%208/</link>
+      <pubDate>Wed, 20 Jan 2016 20:00:00 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/stage/dag%208/</guid>
+      <description>
+
+&lt;h2 id=&#34;stageverslag-2016-01-20-woensdag:dd2f1ec62d0731b11fc3ccc551ff78e8&#34;&gt;Stageverslag 2016-01-20 (Woensdag)&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;De 2e woensdag van de stageperiode was ook weer een rustige werkdag. Ik heb wat laptop’s vervangen, bezig geweest met een virtuele server, 5 laptop’s van een propere Windows installatie voorzien en deze in orde gemaakt voor een trainingssessie die morgen plaatsvindt. De trainingssessie zal gaan over een nieuw systeem dat men hier gaat gebruiken binnenkort.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;De dag eindigde met een laptop waarop 4 trojaanse paarden stonden. Die hebben we voorzien van een nieuwe SSD, maar toen bleek dat ook het scherm defect was. We maakten dan een 2e laptop in orde en ook die bleek geen beeld te geven. Tot slot namen we een 3e vervangtoestel en dat werkte gelukkig wel.
+De laatste 2 dagen gaan vooral in het teken staan van de laptop-stock op te ruimen.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://yordicimmalle.github.io/GIP/stage/dag%207/</link>
+      <pubDate>Tue, 19 Jan 2016 20:00:00 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/stage/dag%207/</guid>
+      <description>
+
+&lt;h2 id=&#34;stageverslag-2016-01-19-dinsdag:ad33dde841ef8abdda8b013a33f45208&#34;&gt;Stageverslag 2016-01-19 (Dinsdag)&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Vandaag was een zeer rustige dag. Weinig werk, dus heb ik kunnen werken aan de Case Study taak van Systeembeheer. Tussendoor heb ik nog wat laptop’s hersteld. Ik heb ook een virtuele server en client opgezet om verschillende testen uit te voeren op basis van wat men hier binnenkort wil doorvoeren. Dit werd gedaan door het gebruik van VMware ESXi en dan via een switch naar mijn laptop met daarop het programma vSphere Client. Het heeft ongeveer dezelfde werking als VirtualBox, maar dan echt over het netwerk.
+In de namiddag heb ik een meeting met de IT-afdeling mogen bijwonen. Deze heeft bijna 2,5u geduurd omdat er heel wat veranderingen op aankomen. Eigenlijk is het wel interessant om te weten waar iedereen hier mee bezig is en het feit dat ik ook mijn mening mag geven, wil toch wel zeggen dat ze naar me willen luisteren.
+Na de vergadering heb ik me verder beziggehouden met de testserver en testclient.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://yordicimmalle.github.io/GIP/stage/dag%206/</link>
+      <pubDate>Mon, 18 Jan 2016 20:00:00 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/stage/dag%206/</guid>
+      <description>
+
+&lt;h2 id=&#34;stageverslag-2016-01-18-maandag:b1e8601be743f1438c11ecacba8832bc&#34;&gt;Stageverslag 2016-01-18 (Maandag)&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Bij het begin van week 1 waren er weer enkele standaard probleempjes bij collega’s. Dat gaat van wachtwoordproblemen tot een probleem bij het printen. Vandaag heb ik 2 laptop’s van een nieuwe SSD en 4GB extra RAM voorzien en ze daarna volledig gebruiksklaar gemaakt. Vervolgens ben ik ook bezig geweest met een voorstelling van de serveropstelling te digitaliseren in Visio. Dit is nog niet volledig af. Ik ben ook nog bezig geweest met gepaste schermen uit te zoeken voor de tekenaars afdeling omdat zij 2 nieuwe collega’s gaan krijgen.
+De dag eindigde met een laptop te herinstalleren.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title></title>
@@ -220,146 +303,6 @@ It is something very unique because there aren’t many people who can say they 
 &lt;li&gt;&lt;a href=&#34;../../it-tapa/filmpje&#34;&gt;IT-Tapa: Instructiefilmpje&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;../../engels/movie&#34;&gt;IT-Tapa: The English Way&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>IT-Tapa sessie</title>
-      <link>http://yordicimmalle.github.io/GIP/it-tapa/sessie/</link>
-      <pubDate>Sat, 28 Nov 2015 15:00:00 +0200</pubDate>
-      
-      <guid>http://yordicimmalle.github.io/GIP/it-tapa/sessie/</guid>
-      <description>
-
-&lt;h2 id=&#34;it-tapa-middagsessie:b30cedf8a13051dd7c7f0ae239d0d8d2&#34;&gt;IT-Tapa middagsessie&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.facebook.com/IT-tapa-588405757863108/&#34; target=&#34;_blank&#34;&gt;IT-Tapa op Facebook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bryceimma.github.io&#34; target=&#34;_blank&#34;&gt;GIP website Bryce van den Brande&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Tijdens de IT-Tapa middagsessie hebben Bryce en ik het gehad over &lt;a href=&#34;http://www.wiggio.com&#34; target=&#34;_blank&#34;&gt;Wiggio&lt;/a&gt;. Wiggio is een tool die leerkrachten kunnen gebruiken in hun lessen. Als je een groep hebt aangemaakt, kan je er heel wat zaken mee doen zoals bestanden delen, links delen van bijvoorbeeld website&amp;rsquo;s met oefeningen, een poll maken, een standaard tekstberichtje plaatsen, meetings aanmaken, events aanmaken, een to-do-lijstje opstellen,&amp;hellip; Met andere woorden kan wiggio wel eens handig zijn tijdens de lessen.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Om terug een keuze te kunnen maken over welke taak u wil bekijken, kan u links in het menu klikken op &amp;lsquo;IT-Tapa&amp;rsquo;&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;enkele-foto-s-van-de-middagsessie:b30cedf8a13051dd7c7f0ae239d0d8d2&#34;&gt;Enkele foto&amp;rsquo;s van de middagsessie&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://scontent-fra3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/12295480_938939196143094_297113877183208635_n.jpg?oh=ce3864dd87542595d6dad91dffce308c&amp;amp;oe=56DC2288&#34; alt=&#34;alt text&#34; /&gt;
-
-&lt;img src=&#34;https://scontent-fra3-1.xx.fbcdn.net/hphotos-xfp1/t31.0-8/12314661_938939286143085_5014712225072395976_o.jpg&#34; alt=&#34;alt text&#34; /&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://yordicimmalle.github.io/GIP/stage/stage/</link>
-      <pubDate>Tue, 20 Oct 2015 18:00:00 +0200</pubDate>
-      
-      <guid>http://yordicimmalle.github.io/GIP/stage/stage/</guid>
-      <description>
-
-&lt;h2 id=&#34;welkom-op-de-stage-website-van-yordi-coussement:1fc991c2339cc4c57580c86792b1bfd7&#34;&gt;Welkom op de stage-website van Yordi Coussement.&lt;/h2&gt;
-
-&lt;p&gt;Vanaf 11 januari zal u dagelijks een update kunnen lezen van mijn stage-ervaringen.&lt;/p&gt;
-
-&lt;h3 id=&#34;veel-leesplezier:1fc991c2339cc4c57580c86792b1bfd7&#34;&gt;Veel leesplezier!&lt;/h3&gt;
-
-&lt;p&gt;~Yordi Coussement~&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Workflow vergelijken</title>
-      <link>http://yordicimmalle.github.io/GIP/software/workflow/</link>
-      <pubDate>Sun, 18 Oct 2015 16:38:21 +0200</pubDate>
-      
-      <guid>http://yordicimmalle.github.io/GIP/software/workflow/</guid>
-      <description>
-
-&lt;h2 id=&#34;links:7b3ce5b849b571e162bc8896a9240e7b&#34;&gt;Links&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://gitlab.com/yordi-coussement/GIP_2015-2016_Yordi_Coussement&#34; target=&#34;_blank&#34;&gt;Gitlab&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/YordiCimmalle/GIP&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yordicimmalle.github.io/GIP&#34; target=&#34;_blank&#34;&gt;Github Pages&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;verschil-tussen-hugo-en-een-klassieke-wordpress-website:7b3ce5b849b571e162bc8896a9240e7b&#34;&gt;Verschil tussen Hugo en een klassieke Wordpress website:&lt;/h2&gt;
-
-&lt;p&gt;Om eerlijk te zijn&amp;hellip; Ik heb Wordpress nog niet echt intensief gebruikt, maar wel al om eens te bekijken wat het juist kan. Ik ga dus mijn best doen om het verschil zo goed mogelijk te verwoorden.&lt;/p&gt;
-
-&lt;p&gt;Wanneer je bij een Hugo website iets wil aanpassen aan de layout moet je code bewerken in de layout map en in de static map. Voor de content maak je verschillende markdown -of yamlbestandjes aan in de content-map. In de layout map staan de verschillende componenten (partials) en in de static kan je vooral css en javascript terugvinden.&lt;/p&gt;
-
-&lt;p&gt;Bij een Wordpress website kan je alles via de browser bewerken. Je klikt gewoon op het bericht dat je wil bewerken en een hele hoop toepassingen staan ter beschikking. Bij Wordpress is het niet zo belangrijk om op de hoogte te zijn van de code, maar bij Hugo moet je er wel van op de hoogte zijn. Uiteraard is het wel een meerwaarde bij Wordpress als je iets van code afweet. Het biedt je zo meer mogelijkheden.&lt;/p&gt;
-
-&lt;h2 id=&#34;directory-structuur-website:7b3ce5b849b571e162bc8896a9240e7b&#34;&gt;Directory-structuur website:&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;In de &lt;code&gt;content-map&lt;/code&gt; van mijn website staan alle markdown bestandjes waarin ik de tekst aan kan passen van mijn posts. Ik heb voor elke taak een nieuw bestandje in de bijhorende map. Bijvoorbeeld de FAQ in het Frans staat in de map &amp;lsquo;Frans&amp;rsquo;. Zo kan ik elke taak netjes gestructureerd terugvinden.&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;In de &lt;code&gt;stage-map&lt;/code&gt; zal ik alle stageverslagen plaatsen wanneer de stageperiode begint. Deze hangt samen met een list waardoor alles mooi onder elkaar komt te staan op datum.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;In de &lt;code&gt;layout-map&lt;/code&gt; staan nog eens de mappen zoals ze in de &lt;code&gt;content-map&lt;/code&gt; staan, maar dan zonder de markdownbestandjes. Hier staan &lt;code&gt;single.html&lt;/code&gt; documenten in die de opmaak weergeven voor de pagina die u te zien zal krijgen.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Bij &lt;code&gt;partials&lt;/code&gt; staan de bepaalde sections van mijn site. Neem nu &lt;code&gt;about.html&lt;/code&gt; als voorbeeld. Dit verwijst naar de info op de hoofdpagina waar u de link &amp;lsquo;Ga naar GIP&amp;rsquo; en &amp;lsquo;Ga naar Stage&amp;rsquo; terug kan vinden.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;De &lt;code&gt;Sidebar&lt;/code&gt;, &lt;code&gt;footer&lt;/code&gt; en &lt;code&gt;head_hyde&lt;/code&gt; staan voor de layout van de GIP pagina.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;De &lt;code&gt;sidebar2&lt;/code&gt;, &lt;code&gt;footer&lt;/code&gt; en &lt;code&gt;head_hyde2&lt;/code&gt; staan voor de layout van de Stage pagina.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;In de &lt;code&gt;static-map&lt;/code&gt; kan je de CSS en javascript bestanden terugvinden.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ik heb 2 thema&amp;rsquo;s samengevoegd, maar heb wel heel veel aangepast. Bijna niets is nog in zijn standaard vorm. Op de ene plaats is er gewoon een kleurtje aangepast en op de andere plaats is eigenlijk alles anders.&lt;/p&gt;
-
-&lt;h3 id=&#34;moeilijkheden:7b3ce5b849b571e162bc8896a9240e7b&#34;&gt;Moeilijkheden:&lt;/h3&gt;
-
-&lt;p&gt;Ik heb de eerste lessen heel wat problemen ondervonden bij de werking van Hugo. Ik begreep absoluut niet waar ik wat kon vinden. Na heel wat uit te proberen begon het te beteren en plots ging het heel vlot. Mijn website kreeg vorm en alles leek te lukken. Uiteindelijk heb ik 2 thema&amp;rsquo;s samengevoegd.
-Bij het publiceren van de website heb ik ook heel wat problemen gehad. Github wilde mijn website niet weergeven zoals het zou moeten, maar uiteindelijk is het dan toch gelukt.&lt;/p&gt;
-
-&lt;h3 id=&#34;heb-ik-iets-bijgeleerd-en-zou-ik-hugo-nog-gebruiken-in-de-toekomst:7b3ce5b849b571e162bc8896a9240e7b&#34;&gt;Heb ik iets bijgeleerd en zou ik Hugo nog gebruiken in de toekomst?&lt;/h3&gt;
-
-&lt;p&gt;Ik heb heel wat bijgeleerd tijdens het maken van mijn website. Ik leerde heel wat nieuwe code bij en ook een nieuwe codetaal namelijk &lt;code&gt;GO&lt;/code&gt;. Ik heb meer inzicht gekregen in de code en de structuur ervan.&lt;/p&gt;
-
-&lt;p&gt;Zou ik Hugo ooit nog eens gebruiken? Ik denk het wel! Het is een leuke manier om website&amp;rsquo;s te maken, het is leerrijk en je kan er mooie eindresultaten mee bereiken.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welkom</title>
-      <link>http://yordicimmalle.github.io/GIP/page/gip/</link>
-      <pubDate>Tue, 13 Oct 2015 15:02:19 +0200</pubDate>
-      
-      <guid>http://yordicimmalle.github.io/GIP/page/gip/</guid>
-      <description>
-
-&lt;h3 id=&#34;welkom-op-de-gip-website-van-yordi-coussement:da16b3234b6355be9661328f9fb02a58&#34;&gt;Welkom op de GIP-website van Yordi Coussement.&lt;/h3&gt;
-
-&lt;p&gt;Welke taak wil u bekijken? Maak uw keuze in het menu!&lt;/p&gt;
-
-&lt;p&gt;Vous avez une question de Wiggio? Lisez &lt;a href=&#34;../../frans/faq&#34;&gt;cette&lt;/a&gt;
- Foire aux Questions et vous trouvez peut-être la réponse.&lt;/p&gt;
-
-&lt;h4 id=&#34;veel-lees-en-kijkplezier:da16b3234b6355be9661328f9fb02a58&#34;&gt;Veel lees -en kijkplezier!&lt;/h4&gt;
-
-&lt;p&gt;~Yordi Coussement~&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>info</title>
-      <link>http://yordicimmalle.github.io/GIP/page/info/</link>
-      <pubDate>Tue, 13 Oct 2015 15:02:19 +0200</pubDate>
-      
-      <guid>http://yordicimmalle.github.io/GIP/page/info/</guid>
-      <description>
-
-&lt;h1 id=&#34;welkom-op-deze-webiste:6287b96b2ebce4bb09e860d1e6de8b04&#34;&gt;Welkom op deze webiste&lt;/h1&gt;
-
-&lt;p&gt;Deze website zal gebruikt worden om alle GIP taken te uploaden&lt;/p&gt;
 </description>
     </item>
     
