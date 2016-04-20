@@ -3,8 +3,18 @@
   
   <url>
     <loc>http://yordicimmalle.github.io/GIP/</loc>
-    <lastmod>2016-04-15T18:00:00+02:00</lastmod>
+    <lastmod>2016-04-20T18:00:00+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://yordicimmalle.github.io/GIP/bedrijfsbeheer/bedrijf/</loc>
+    <lastmod>2016-04-20T18:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yordicimmalle.github.io/GIP/software/huisstijl/</loc>
+    <lastmod>2016-04-20T18:00:00+02:00</lastmod>
   </url>
   
   <url>
@@ -108,12 +118,12 @@
   </url>
   
   <url>
-    <loc>http://yordicimmalle.github.io/GIP/page/info/</loc>
+    <loc>http://yordicimmalle.github.io/GIP/page/gip/</loc>
     <lastmod>2015-10-13T15:02:19+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://yordicimmalle.github.io/GIP/page/gip/</loc>
+    <loc>http://yordicimmalle.github.io/GIP/page/info/</loc>
     <lastmod>2015-10-13T15:02:19+02:00</lastmod>
   </url>
   
