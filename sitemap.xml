@@ -3,8 +3,23 @@
   
   <url>
     <loc>http://yordicimmalle.github.io/GIP/</loc>
-    <lastmod>2016-04-27T15:00:00+02:00</lastmod>
+    <lastmod>2016-05-04T18:07:12+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://yordicimmalle.github.io/GIP/software/javascript/</loc>
+    <lastmod>2016-05-04T18:07:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yordicimmalle.github.io/GIP/software/database/</loc>
+    <lastmod>2016-05-04T14:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yordicimmalle.github.io/GIP/software/itprofile/</loc>
+    <lastmod>2016-04-27T18:07:12+02:00</lastmod>
   </url>
   
   <url>

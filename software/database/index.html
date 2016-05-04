@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>SQL Database </title>
+
+  
+  <link rel="stylesheet" href="http://yordicimmalle.github.io/GIP/css_hyde/poole.css">
+  <link rel="stylesheet" href="http://yordicimmalle.github.io/GIP/css_hyde/hyde.css">
+  <link rel="stylesheet" href="http://yordicimmalle.github.io/GIP/css_hyde/poole-overrides.css">
+  <link rel="stylesheet" href="http://yordicimmalle.github.io/GIP/css_hyde/hyde-overrides.css">
+  <link rel="stylesheet" href="http://yordicimmalle.github.io/GIP/css_hyde/hyde-x.css">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  
+  
+  
+  
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  
+</head>
+<body>
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="http://yordicimmalle.github.io/GIP/"><i class="fa fa-home"> Home</i></a></li>
+      <li class="sidebar-nav-item"><a href="../../page/gip">Start</a></li>
+      <li class="sidebar-nav-item"><a href="../../software/workflow">Workflows vergelijken</a></li>
+      <li class="sidebar-nav-item"><a href="../../it-tapa/main">IT-Tapa</a></li>
+      <li class="sidebar-nav-item"><a href="../../engels/autobiography">IT-autobiography</a></li>
+      <li class="sidebar-nav-item"><a href="../../frans/faq">La Foire aux Questions</a></li>
+      <li class="sidebar-nav-item"><a href="../../engels/review">Review in English</a></li>
+      <li class="sidebar-nav-item"><a href="../../systeembeheer/casestudy">Case Study over Citrix</a></li>
+      <li class="sidebar-nav-item"><a href="../../software/huisstijl">Huisstijl van het stagebedrijf</a></li>
+      <li class="sidebar-nav-item"><a href="../../frans/reportagephoto">Un reportage photos du stage</a></li>
+      <li class="sidebar-nav-item"><a href="../../software/database">SQL Database</a></li>
+      <li class="sidebar-nav-item"><a href="../../software/itprofile">IT-Profile</a></li>
+      <li class="sidebar-nav-item"><a href="../../software/javascript">Interactieve applicatie</a></li>
+
+
+
+      
+    </ul>
+
+    
+
+    <p>Copyright &copy; 2016 <br />Yordi Coussement<br/></p>
+  </div>
+</div>
+
+
+
+<div class="content container">
+    <div class="post">
+        <h1>SQL Database</h1>
+        <span class="post-date">
+            May 4, 2016 
+            
+        </span>
+        
+
+<p><img src="../../../img/schema.png" alt="alt text" />
+</p>
+
+<h2 id="korte-uitleg:1e080c892326e5bba749587eba8bcf9e">Korte uitleg:</h2>
+
+<p>Als plan had ik het idee om een soort download portaal te ontwerpen voor muziek. Er zijn websites zoals <code>Soundcloud</code> en <code>Mixcloud</code> waarop je muziek kan uploaden en beluisteren. Om muziek te kunnen downloaden is het nodig om een account te hebben. Omdat heel wat mensen maar af en toe een liedje willen downloaden had ik het idee een toepassing te ontwerpen waar het ook mogelijk is om muziek te downloaden zonder account.</p>
+
+<p>Een ongeregistreerde gebruiker kan dus een account aanmaken, muziek beluisteren en muziek downloaden (indien ze downloadbaar zijn).</p>
+
+<p>Een geregistreerde gebruiker kan zijn account bewerken, muziek uploaden, muziek downloaden, muziek beluisteren en reacties plaatsen.</p>
+
+<h3 id="sql-code:1e080c892326e5bba749587eba8bcf9e">SQL Code</h3>
+
+<blockquote>
+<h3 id="databasa-maken:1e080c892326e5bba749587eba8bcf9e">Databasa maken</h3>
+
+<pre><code>CREATE SCHEMA gip_taak_08_CoussementYordi;
+use gip_taak_08_CoussementYordi;
+</code></pre>
+
+<h3 id="tabellen-maken:1e080c892326e5bba749587eba8bcf9e">Tabellen maken</h3>
+
+<pre><code>CREATE TABLE UserAccount(
+    id int not null auto_increment primary key,
+    name text not null,
+    userName text not null,
+    email text
+);
+</code></pre>
+
+<pre><code>CREATE TABLE Track(
+    id int not null auto_increment primary key,
+    user_id int not null,
+    titel text,
+    lengte text,
+    informatie text,
+    genre text
+);
+</code></pre>
+
+<pre><code>CREATE TABLE Reacties(
+    id int not null auto_increment primary key,
+    user_id int not null,
+    track_id int not null,
+    tijdstip datetime,
+    inhoud text
+);
+</code></pre>
+
+<h3 id="testdata-invoeren:1e080c892326e5bba749587eba8bcf9e">Testdata invoeren</h3>
+
+<pre><code>INSERT INTO UserAccount(id, name, userName, email)
+VALUES
+(1, &quot;Yordi Coussement&quot;, &quot;YordiC&quot; , &quot;yordi.coussement@immalle.be&quot;),
+(2, &quot;Ricardo Coenen&quot;, &quot;RicardoC&quot; , &quot;ricardo.coenen@immalle.be&quot;),
+(3, &quot;Maarten Vissers&quot;, &quot;MaartenV&quot; , &quot;maarten.vissers@immalle.be&quot;),
+(4, &quot;Jens Van Hoof&quot;, &quot;JensVH&quot; , &quot;jens.vanhoof@immalle.be&quot;),
+(5, &quot;Wout Wynen&quot;, &quot;WoutW&quot; , &quot;wout.wynen@immalle.be&quot;);
+</code></pre>
+
+<pre><code>INSERT INTO Track(id, user_id, titel, lengte, informatie, genre)
+VALUES
+(1, 1, &quot;Major Lazer - Roll The Bass (Coone Edit)&quot;, &quot;04:00&quot;, &quot;Gratis edit van Coone.&quot;, &quot;Hardstyle&quot;),
+(2, 5, &quot;Diplo &amp; Sleepy Tom - Be Right There (Extended Mix)&quot;, &quot;04:27&quot;, &quot;Releasedatum: 16 oktober 2015.&quot;, &quot;Deep House&quot;),
+(3, 4, &quot;Valentino Khan - Deep Down Low&quot;, &quot;03:06&quot;, &quot;Deep House hit die 10 weken op nummer 3 stond in de Ultra Top Dance 50.&quot;, &quot;Deep House&quot;),
+(4, 3, &quot;Da Rick - Attention (Original Slam)&quot;, &quot;04:36&quot;, &quot;Retro hit uit 1997.&quot;, &quot;Retro&quot;),
+(5, 1, &quot;Pharrell Williams &amp;  Snoop Dogg  - Drop It Like Its Hot&quot;, &quot;04:26&quot;, &quot;Veel gedraaide track op de R&amp;B feestjes.&quot;, &quot;R&amp;B&quot;);
+</code></pre>
+
+<pre><code>INSERT INTO Reacties(id, user_id, track_id, tijdstip, inhoud)
+VALUES
+(1, 1, 1, &quot;2016-03-15 17:38:25&quot;, &quot;Leuke edit, beter dan het origineel.&quot;),
+(2, 3, 5, &quot;2016-04-20 12:30:41&quot;, &quot;Een van m'n favoriete tracks!&quot;),
+(3, 4, 3, &quot;2016-04-04 09:07:51&quot;, &quot;Zalige bass als je voor enkele woofers staat!&quot;),
+(4, 2, 2, &quot;2016-04-01 11:56:06&quot;, &quot;Beste stuk is ongetwijfeld tussen 01:03 en 01:34!&quot;),
+(5, 1, 4, &quot;2013-02-27 21:39:34&quot;, &quot;Een van de betere schijven uit de jaren 90!&quot;),
+(6, 5, 1, &quot;2016-05-13 23:59:59&quot;, &quot;De Febreze edit is toch beter dan deze.&quot;),
+(7, 5, 2, &quot;2016-03-09 01:21:47&quot;, &quot;Rustige track, leuk voor in een warming up set.&quot;),
+(8, 3, 2, &quot;2014-04-20 05:19:15&quot;, &quot;Dit is toch iets te rustig voor mij.&quot;);
+</code></pre>
+
+<h3 id="testsquery-s:1e080c892326e5bba749587eba8bcf9e">Testsquery&rsquo;s</h3>
+
+<h5 id="toont-alle-gegevens-van-alle-users:1e080c892326e5bba749587eba8bcf9e">toont alle gegevens van alle users</h5>
+
+<pre><code>SELECT name AS Naam, userName AS Gebruikersnaam, email AS Email FROM UserAccount;
+</code></pre>
+
+<h5 id="toont-alle-tracks-met-hun-beschrijving:1e080c892326e5bba749587eba8bcf9e">toont alle Tracks met hun beschrijving</h5>
+
+<pre><code>SELECT titel AS Titel, informatie AS Beschrijving FROM Track;
+</code></pre>
+
+<h5 id="toont-alle-tracks-van-alle-users:1e080c892326e5bba749587eba8bcf9e">toont alle Tracks van alle users</h5>
+
+<pre><code>SELECT name AS Naam, UserName AS Gebruikersnaam, titel AS Titel, lengte AS Lengte, informatie AS Beschrijving, genre AS Genre FROM UserAccount
+JOIN Track ON UserAccount.id = Track.user_Id;
+</code></pre>
+
+<h5 id="toont-alle-reacties-van-alle-users:1e080c892326e5bba749587eba8bcf9e">toont alle reacties van alle users</h5>
+
+<pre><code>SELECT userName AS Gebruikersnaam, Track_Id AS TrackID, inhoud AS Inhoud, tijdstip AS Tijdstip FROM UserAccount
+JOIN Reacties ON UserAccount.id = Reacties.Track_id;
+</code></pre>
+</blockquote>
+
+<p><a href="../../../docs/gip_taak_8_CoussementYordi.sql" download>Download hier de SQL-File!</a></p>
+
+    </div>
+    
+</div>
+
+
+
+
+
+
+</body>
+</html>
+

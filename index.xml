@@ -6,8 +6,165 @@
     <description>Recent content on GIP 2015-2016 Yordi Coussement</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Apr 2016 15:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 04 May 2016 18:07:12 +0200</lastBuildDate>
     <atom:link href="http://yordicimmalle.github.io/GIP/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Interactieve (client-side web-)applicatie</title>
+      <link>http://yordicimmalle.github.io/GIP/software/javascript/</link>
+      <pubDate>Wed, 04 May 2016 18:07:12 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/software/javascript/</guid>
+      <description>
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://gitlab.com/yordi-coussement/gip-taak-9-yordi-coussement&#34; target=&#34;_blank&#34;&gt;Gitlab-Repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ontwerp-javascript-tool:193a16fbbc467581f0cd8e061c629262&#34;&gt;Ontwerp Javascript-tool&lt;/h3&gt;
+
+&lt;p&gt;Als idee voor de tool had ik gedacht aan een delay-calculator. Zoals iedereen op een fuif al wel gemerkt heeft, is er verschil tussen het geluid vooraan en het geluid achteraan waar er nog enkele luidsprekers staan. Dit probleem valt op te lossen door delay te zetten op de luidsprekers. Hierdoor zal het geluid samenlopen.&lt;/p&gt;
+
+&lt;p&gt;Uiteraard is het iets dat niet makkelijk is omdat er een rekensommetje aan verbonden is. In mijn pagina wil ik deze calculator verwerken met animerende zaken.&lt;/p&gt;
+
+&lt;p&gt;De gebruiker kan zijn afstand ingeven in een input-vak en krijgt de delay, berekend in m/s, als resultaat.&lt;/p&gt;
+
+&lt;h4 id=&#34;bekijk-a-href-docs-javascript-index-html-target-blank-hier-a-het-resultaat:193a16fbbc467581f0cd8e061c629262&#34;&gt;Bekijk &lt;a href=&#34;../../../docs/javascript/index.html&#34; target=&#34;_blank&#34;&gt;hier&lt;/a&gt; het resultaat.&lt;/h4&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SQL Database</title>
+      <link>http://yordicimmalle.github.io/GIP/software/database/</link>
+      <pubDate>Wed, 04 May 2016 14:00:00 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/software/database/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;../../../img/schema.png&#34; alt=&#34;alt text&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;korte-uitleg:1e080c892326e5bba749587eba8bcf9e&#34;&gt;Korte uitleg:&lt;/h2&gt;
+
+&lt;p&gt;Als plan had ik het idee om een soort download portaal te ontwerpen voor muziek. Er zijn websites zoals &lt;code&gt;Soundcloud&lt;/code&gt; en &lt;code&gt;Mixcloud&lt;/code&gt; waarop je muziek kan uploaden en beluisteren. Om muziek te kunnen downloaden is het nodig om een account te hebben. Omdat heel wat mensen maar af en toe een liedje willen downloaden had ik het idee een toepassing te ontwerpen waar het ook mogelijk is om muziek te downloaden zonder account.&lt;/p&gt;
+
+&lt;p&gt;Een ongeregistreerde gebruiker kan dus een account aanmaken, muziek beluisteren en muziek downloaden (indien ze downloadbaar zijn).&lt;/p&gt;
+
+&lt;p&gt;Een geregistreerde gebruiker kan zijn account bewerken, muziek uploaden, muziek downloaden, muziek beluisteren en reacties plaatsen.&lt;/p&gt;
+
+&lt;h3 id=&#34;sql-code:1e080c892326e5bba749587eba8bcf9e&#34;&gt;SQL Code&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;h3 id=&#34;databasa-maken:1e080c892326e5bba749587eba8bcf9e&#34;&gt;Databasa maken&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;CREATE SCHEMA gip_taak_08_CoussementYordi;
+use gip_taak_08_CoussementYordi;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;tabellen-maken:1e080c892326e5bba749587eba8bcf9e&#34;&gt;Tabellen maken&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;CREATE TABLE UserAccount(
+    id int not null auto_increment primary key,
+    name text not null,
+    userName text not null,
+    email text
+);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;CREATE TABLE Track(
+    id int not null auto_increment primary key,
+    user_id int not null,
+    titel text,
+    lengte text,
+    informatie text,
+    genre text
+);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;CREATE TABLE Reacties(
+    id int not null auto_increment primary key,
+    user_id int not null,
+    track_id int not null,
+    tijdstip datetime,
+    inhoud text
+);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;testdata-invoeren:1e080c892326e5bba749587eba8bcf9e&#34;&gt;Testdata invoeren&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;INSERT INTO UserAccount(id, name, userName, email)
+VALUES
+(1, &amp;quot;Yordi Coussement&amp;quot;, &amp;quot;YordiC&amp;quot; , &amp;quot;yordi.coussement@immalle.be&amp;quot;),
+(2, &amp;quot;Ricardo Coenen&amp;quot;, &amp;quot;RicardoC&amp;quot; , &amp;quot;ricardo.coenen@immalle.be&amp;quot;),
+(3, &amp;quot;Maarten Vissers&amp;quot;, &amp;quot;MaartenV&amp;quot; , &amp;quot;maarten.vissers@immalle.be&amp;quot;),
+(4, &amp;quot;Jens Van Hoof&amp;quot;, &amp;quot;JensVH&amp;quot; , &amp;quot;jens.vanhoof@immalle.be&amp;quot;),
+(5, &amp;quot;Wout Wynen&amp;quot;, &amp;quot;WoutW&amp;quot; , &amp;quot;wout.wynen@immalle.be&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;INSERT INTO Track(id, user_id, titel, lengte, informatie, genre)
+VALUES
+(1, 1, &amp;quot;Major Lazer - Roll The Bass (Coone Edit)&amp;quot;, &amp;quot;04:00&amp;quot;, &amp;quot;Gratis edit van Coone.&amp;quot;, &amp;quot;Hardstyle&amp;quot;),
+(2, 5, &amp;quot;Diplo &amp;amp; Sleepy Tom - Be Right There (Extended Mix)&amp;quot;, &amp;quot;04:27&amp;quot;, &amp;quot;Releasedatum: 16 oktober 2015.&amp;quot;, &amp;quot;Deep House&amp;quot;),
+(3, 4, &amp;quot;Valentino Khan - Deep Down Low&amp;quot;, &amp;quot;03:06&amp;quot;, &amp;quot;Deep House hit die 10 weken op nummer 3 stond in de Ultra Top Dance 50.&amp;quot;, &amp;quot;Deep House&amp;quot;),
+(4, 3, &amp;quot;Da Rick - Attention (Original Slam)&amp;quot;, &amp;quot;04:36&amp;quot;, &amp;quot;Retro hit uit 1997.&amp;quot;, &amp;quot;Retro&amp;quot;),
+(5, 1, &amp;quot;Pharrell Williams &amp;amp;  Snoop Dogg  - Drop It Like Its Hot&amp;quot;, &amp;quot;04:26&amp;quot;, &amp;quot;Veel gedraaide track op de R&amp;amp;B feestjes.&amp;quot;, &amp;quot;R&amp;amp;B&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;INSERT INTO Reacties(id, user_id, track_id, tijdstip, inhoud)
+VALUES
+(1, 1, 1, &amp;quot;2016-03-15 17:38:25&amp;quot;, &amp;quot;Leuke edit, beter dan het origineel.&amp;quot;),
+(2, 3, 5, &amp;quot;2016-04-20 12:30:41&amp;quot;, &amp;quot;Een van m&#39;n favoriete tracks!&amp;quot;),
+(3, 4, 3, &amp;quot;2016-04-04 09:07:51&amp;quot;, &amp;quot;Zalige bass als je voor enkele woofers staat!&amp;quot;),
+(4, 2, 2, &amp;quot;2016-04-01 11:56:06&amp;quot;, &amp;quot;Beste stuk is ongetwijfeld tussen 01:03 en 01:34!&amp;quot;),
+(5, 1, 4, &amp;quot;2013-02-27 21:39:34&amp;quot;, &amp;quot;Een van de betere schijven uit de jaren 90!&amp;quot;),
+(6, 5, 1, &amp;quot;2016-05-13 23:59:59&amp;quot;, &amp;quot;De Febreze edit is toch beter dan deze.&amp;quot;),
+(7, 5, 2, &amp;quot;2016-03-09 01:21:47&amp;quot;, &amp;quot;Rustige track, leuk voor in een warming up set.&amp;quot;),
+(8, 3, 2, &amp;quot;2014-04-20 05:19:15&amp;quot;, &amp;quot;Dit is toch iets te rustig voor mij.&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;testsquery-s:1e080c892326e5bba749587eba8bcf9e&#34;&gt;Testsquery&amp;rsquo;s&lt;/h3&gt;
+
+&lt;h5 id=&#34;toont-alle-gegevens-van-alle-users:1e080c892326e5bba749587eba8bcf9e&#34;&gt;toont alle gegevens van alle users&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;SELECT name AS Naam, userName AS Gebruikersnaam, email AS Email FROM UserAccount;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;toont-alle-tracks-met-hun-beschrijving:1e080c892326e5bba749587eba8bcf9e&#34;&gt;toont alle Tracks met hun beschrijving&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;SELECT titel AS Titel, informatie AS Beschrijving FROM Track;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;toont-alle-tracks-van-alle-users:1e080c892326e5bba749587eba8bcf9e&#34;&gt;toont alle Tracks van alle users&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;SELECT name AS Naam, UserName AS Gebruikersnaam, titel AS Titel, lengte AS Lengte, informatie AS Beschrijving, genre AS Genre FROM UserAccount
+JOIN Track ON UserAccount.id = Track.user_Id;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;toont-alle-reacties-van-alle-users:1e080c892326e5bba749587eba8bcf9e&#34;&gt;toont alle reacties van alle users&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;SELECT userName AS Gebruikersnaam, Track_Id AS TrackID, inhoud AS Inhoud, tijdstip AS Tijdstip FROM UserAccount
+JOIN Reacties ON UserAccount.id = Reacties.Track_id;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;../../../docs/gip_taak_8_CoussementYordi.sql&#34; download&gt;Download hier de SQL-File!&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IT-Profile</title>
+      <link>http://yordicimmalle.github.io/GIP/software/itprofile/</link>
+      <pubDate>Wed, 27 Apr 2016 18:07:12 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/software/itprofile/</guid>
+      <description>&lt;p&gt;Bent u benieuwd hoeveel kennis ik de voorbije twee jaar opgedaan heb over hardware en software?&lt;/p&gt;
+
+&lt;p&gt;Ondek het &lt;a href=&#34;../../../docs/progress.html&#34; target=&#34;_blank&#34;&gt;hier&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://monluna.nl/wp-content/uploads/2015/02/Vraagteken-04.png&#34; alt=&#34;alt text&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Un reportage photos du stage</title>
@@ -15,7 +172,9 @@
       <pubDate>Wed, 27 Apr 2016 15:00:00 +0200</pubDate>
       
       <guid>http://yordicimmalle.github.io/GIP/frans/reportagephoto/</guid>
-      <description>&lt;iframe id=&#34;iframe_container&#34; frameborder=&#34;0&#34; webkitallowfullscreen=&#34;&#34; mozallowfullscreen=&#34;&#34; allowfullscreen=&#34;&#34; width=&#34;550&#34; height=&#34;400&#34; src=&#34;https://prezi.com/embed/ya4ipx94nnhv/?bgcolor=ffffff&amp;amp;lock_to_path=0&amp;amp;autoplay=0&amp;amp;autohide_ctrls=0&amp;amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0dDYxbUoyY1dGZWJrazBhSitsdVRqcW13PT0&amp;amp;landing_sign=EXW0WE0MQ5Yx526UsPy1X6sco2ZW1BkQ-Ifmp2qTU4E&#34;&gt;&lt;/iframe&gt;
+      <description>&lt;p&gt;Voici vous trouvez un reportage photo concernant le stage&lt;/p&gt;
+
+&lt;iframe id=&#34;iframe_container&#34; frameborder=&#34;0&#34; webkitallowfullscreen=&#34;&#34; mozallowfullscreen=&#34;&#34; allowfullscreen=&#34;&#34; width=&#34;550&#34; height=&#34;400&#34; src=&#34;https://prezi.com/embed/ya4ipx94nnhv/?bgcolor=ffffff&amp;amp;lock_to_path=0&amp;amp;autoplay=0&amp;amp;autohide_ctrls=0&amp;amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0dDYxbUoyY1dGZWJrazBhSitsdVRqcW13PT0&amp;amp;landing_sign=EXW0WE0MQ5Yx526UsPy1X6sco2ZW1BkQ-Ifmp2qTU4E&#34;&gt;&lt;/iframe&gt;
 </description>
     </item>
     
@@ -175,7 +334,7 @@ Het alternatief in de toekomst zal waarschijnlijk de Cloud worden. Hiermee bedoe
     </item>
     
     <item>
-      <title>Review about ClickShare</title>
+      <title>Review of a hardware and software tool in the training company: ClickShare</title>
       <link>http://yordicimmalle.github.io/GIP/engels/review/</link>
       <pubDate>Mon, 04 Apr 2016 14:00:00 +0200</pubDate>
       
@@ -312,61 +471,6 @@ Daarna was er niets meer te doen en heb ik voor school gewerkt aangezien er toch
 &lt;p&gt;&lt;em&gt;De voorlaatste dag van deze week begon aangenamer dan de voorbije dagen. Ik kon meteen verder werken aan de pc’s die gisteren nog niet klaar waren. Wanneer dat gedaan was, heb ik meegeholpen om een vergaderzaal in orde te maken voor een cursus die gegeven ging worden over een bepaald tekenprogramma. Tussendoor heb ik ook nog 3 laptop’s in orde gemaakt en 1 laptop meer RAM gegeven. Vervolgens kreeg ik de opdracht om in elke vergaderzaal de achtergrond van Clickshare aan te passen, maar omdat de zalen allemaal bezet waren heb ik dit nog niet kunnen doen.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Na de middag was mijn stagementor op een andere locatie om iets op de te lossen (Van Roey heeft verschillende vestigingen over Vlaanderen). Dit heb ik opgevuld met een opzoek taak die hij mij gegeven heeft en nog wat schooltaken. Tussendoor ben ik af en toe nog mee geweest naar collega’s die probleempjes hebben. Dit deed ik met de persoon die me al de hele week met alles helpt en me heel veel uitlegt en bijleert. Op het einde liet deze persoon me ook nog een helpdesktool zien die ze hier in het bedrijf gebruiken om problemen op te lossen en mensen verder te helpen. De functies van dit systeem zijn enorm. Het gaat zelfs zo ver dat men exact kan zien hoeveel procent van het aantal computerschermen van Samsung zijn of van een ander merk.&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://yordicimmalle.github.io/GIP/stage/dag%203/</link>
-      <pubDate>Wed, 13 Jan 2016 20:00:00 +0200</pubDate>
-      
-      <guid>http://yordicimmalle.github.io/GIP/stage/dag%203/</guid>
-      <description>
-
-&lt;h2 id=&#34;stageverslag-2016-01-13-woensdag:551608952002b91bdd1030f6849af627&#34;&gt;Stageverslag 2016-01-13 (Woensdag)&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;De derde dag van de stage begon ook rustig. Mijn eerste opdracht was het klaarmaken van een nieuwe printer. Eerst uit de doos halen en nadien gebruiksklaar maken. Wanneer dit gedaan was mocht ik een uurtje een live demo volgen via internet over een tool die men hier in het bedrijf wil aanschaffen. Het zag er moeilijk uit, maar voor het bedrijf zal het waarschijnlijk wel een meerwaarde vormen omdat ze via die tool heel hun netwerk kunnen beheren en pc’s herstellen indien nodig zonder op verplaatsing te moeten gaan.
-Daarna vond er een vergadering plaats van de IT-afdeling. Ook hier mocht ik bij aansluiten terwijl de medewerkers van de afdeling allerlei zaken gingen overlopen over problemen en nieuwe systemen die er binnenkort gaan komen.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Na de middag zijn we begonnen met enkele taken te overlopen van de voorbije 2,5 dagen. Daarna leek de dag super saai verder te gaan, maar uiteindelijk ben ik nog op een andere afdeling 2 PC’s voor een grafische tekenaar in orde mogen gaan brengen. Hiermee zijn we bezig geweest tot 17u en dit werken we morgen af.&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://yordicimmalle.github.io/GIP/stage/dag%202/</link>
-      <pubDate>Tue, 12 Jan 2016 20:00:00 +0200</pubDate>
-      
-      <guid>http://yordicimmalle.github.io/GIP/stage/dag%202/</guid>
-      <description>
-
-&lt;h2 id=&#34;stageverslag-2016-01-12-dinsdag:f5879d1926fa0e320c42ddd13a846fe6&#34;&gt;Stageverslag 2016-01-12 (Dinsdag)&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;Vandaag begon de dag vrij rustig. Vanmorgen had ik rustig de tijd om mijn laptop op te starten en me te installeren. Na een 20 tal minuten kreeg ik een blad met enkele taakjes op voor vandaag. De eerste taak was uitzoeken waarom iemand van de medewerkers zijn bureaubladgadgets niet werkten en waarom er op het internet allerlei dingen te vinden waren over het feit dat de gadgets onveilig waren.
-Wanneer deze taak gedaan was, moest ik iets opzoeken over de werking van Clickshare en of er betere tools waren om het beeld van je smartphone te streamen naar een scherm.
-De laatste opzoek taak was iets over de printer hier op de IT-afdeling. Men kan maar 25-50 vellen papier scannen en mailen tegelijk. De vraag was of er door middel van de ‘scan to folder’-functie meer vellen ineens gedaan konden worden of niet.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Voor de rest van de dag heb ik enkele laptop’s in orde gemaakt voor medewerkers van Van Roey. Dit varieerde van een herinstallatie tot het inbouwen van een nieuwe SSD en extra RAM.
-Tot slot heb ik nog een offerte gekregen van een PC voor een grafisch tekenaar en moest ik opzoeken of ik diezelfde producten (monitor en grafische kaart) ergens anders goedkoper kon vinden omdat mijn opdrachtgever twijfelde aan de prijs.
-Al met al was deze dag een stuk aangenamer dan gisteren. Ik heb amper de tijd gehad om me te vervelen dus hopelijk zet deze evolutie zich de komende dagen verder.&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://yordicimmalle.github.io/GIP/stage/dag%201/</link>
-      <pubDate>Mon, 11 Jan 2016 20:00:00 +0200</pubDate>
-      
-      <guid>http://yordicimmalle.github.io/GIP/stage/dag%201/</guid>
-      <description>
-
-&lt;h2 id=&#34;stageverslag-2016-01-11-maandag:99435a088ecec36d448b3557ec030929&#34;&gt;Stageverslag 2016-01-11 (Maandag)&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;Op de eerste dag van de stage kreeg ik eerst een snelle, korte rondleiding doorheen het gebouw van Van Roey zodat ik op de hoogte was van wat ik waar kon vinden. Nadien werd ik naar de informatica-afdeling gebracht waar we er meteen aan begonnen. Mijn stagementor liet me eerst het serverlokaal zien van het bedrijf en gaf een korte toelichting bij de apparatuur. Wanneer dit gedaan was, gingen we terug naar de IT-afdeling. De eerste taak hier was enkele laptop’s herinstalleren door een bestaande image te gebruiken en deze over het netwerk meteen op 2 laptop’s te zetten. Dit werd gedaan vanop een laptop met een Debian server.
-Vervolgens moest ik mijn eigen laptop installeren die ik hier 2 weken mag gebruiken en een account aanmaken in de AD zodat ik ook kan inloggen.
-Ik heb ook een handje mogen helpen bij het oplossen van problemen bij enkele medewerkers hier in het bedrijf. Dit waren enkele kleine dingen zoals een wachtwoord resetten, een nieuwe SSD steken, RAM uitbreiden,&amp;hellip;
-Tot slot heb ik 7 SSD schijven gebruiksklaar gemaakt met een sysprep van windows.
-Over het algemeen vond ik het eerlijk gezegd een beetje een saai, lange dag. De momenten wanneer ik iets kon doen vielen mee, maar ik heb wel enkele uren zitten niksen omdat er geen werk was. Dit vulde ik dan op met wat meer bij te leren over bepaalde hardware en software die  ze bij Van Roey gebruiken.&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
