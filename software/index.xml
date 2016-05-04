@@ -112,7 +112,7 @@ Bij het publiceren van de website heb ik ook heel wat problemen gehad. Github wi
       <guid>http://yordicimmalle.github.io/GIP/software/database/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;../../../img/schema.png&#34; alt=&#34;alt text&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;../../img/schema.png&#34; alt=&#34;alt text&#34; /&gt;
 &lt;/p&gt;
 
 &lt;h2 id=&#34;korte-uitleg:1e080c892326e5bba749587eba8bcf9e&#34;&gt;Korte uitleg:&lt;/h2&gt;
@@ -218,7 +218,7 @@ JOIN Reacties ON UserAccount.id = Reacties.Track_id;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;a href=&#34;../../../docs/gip_taak_8_CoussementYordi.sql&#34; download&gt;Download hier de SQL-File!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../../docs/gip_taak_8_CoussementYordi.sql&#34; download&gt;Download hier de SQL-File!&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -242,7 +242,7 @@ JOIN Reacties ON UserAccount.id = Reacties.Track_id;
 
 &lt;p&gt;De gebruiker kan zijn afstand ingeven in een input-vak en krijgt de delay, berekend in m/s, als resultaat.&lt;/p&gt;
 
-&lt;h4 id=&#34;bekijk-a-href-docs-javascript-index-html-target-blank-hier-a-het-resultaat:193a16fbbc467581f0cd8e061c629262&#34;&gt;Bekijk &lt;a href=&#34;../../../docs/javascript/index.html&#34; target=&#34;_blank&#34;&gt;hier&lt;/a&gt; het resultaat.&lt;/h4&gt;
+&lt;h4 id=&#34;bekijk-a-href-docs-javascript-index-html-target-blank-hier-a-het-resultaat:193a16fbbc467581f0cd8e061c629262&#34;&gt;Bekijk &lt;a href=&#34;../../docs/javascript/index.html&#34; target=&#34;_blank&#34;&gt;hier&lt;/a&gt; het resultaat.&lt;/h4&gt;
 </description>
     </item>
     
