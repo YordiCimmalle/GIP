@@ -172,7 +172,7 @@ JOIN Reacties ON UserAccount.id = Reacties.Track_id;
       <pubDate>Wed, 27 Apr 2016 15:00:00 +0200</pubDate>
       
       <guid>http://yordicimmalle.github.io/GIP/frans/reportagephoto/</guid>
-      <description>&lt;p&gt;Voici vous trouvez un reportage photo concernant le stage&lt;/p&gt;
+      <description>&lt;p&gt;Voici le reportage photos du stage à l&amp;rsquo;entreprise Van Roey Rijkevorsel.&lt;/p&gt;
 
 &lt;iframe id=&#34;iframe_container&#34; frameborder=&#34;0&#34; webkitallowfullscreen=&#34;&#34; mozallowfullscreen=&#34;&#34; allowfullscreen=&#34;&#34; width=&#34;550&#34; height=&#34;400&#34; src=&#34;https://prezi.com/embed/ya4ipx94nnhv/?bgcolor=ffffff&amp;amp;lock_to_path=0&amp;amp;autoplay=0&amp;amp;autohide_ctrls=0&amp;amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0dDYxbUoyY1dGZWJrazBhSitsdVRqcW13PT0&amp;amp;landing_sign=EXW0WE0MQ5Yx526UsPy1X6sco2ZW1BkQ-Ifmp2qTU4E&#34;&gt;&lt;/iframe&gt;
 </description>
