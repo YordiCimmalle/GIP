@@ -1,0 +1,114 @@
+body {
+    background-image: url("http://cliparwolf.com/images/white-background/white-background-05.jpg");
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+.outer {
+    fill: transparent;
+    stroke: #333;
+    stroke-width: 19.8;
+    stroke-dasharray: 534;
+    transition: stroke-dashoffset 1s;
+    -webkit-animation-play-state: running;
+    /* firefox bug fix - won't rotate at 90deg angles */
+    -moz-transform: rotate(-89deg) translateX(-190px);
+}
+
+/* full circle 25 empty 534 */
+.inner {
+    fill: transparent;
+    stroke: orange;
+    stroke-width: 20;
+    stroke-dasharray: 534;
+    transition: stroke-dashoffset 1s;
+    -webkit-animation-play-state: running;
+    /* firefox bug fix - won't rotate at 90deg angles */
+    -moz-transform: rotate(-89deg) translateX(-190px);
+    stroke-dashoffset: 0;
+}
+
+.circliful {
+    overflow: visible !important;
+
+}
+
+.svg-container {
+    width: 100%
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;;
+}
+
+svg .icon {
+    font-family: FontAwesome;
+}
+
+h1 {
+  text-align: center;
+  color: #1B44E9;
+  border: solid;
+  border-radius: 10px;
+  background-color: #74FE84;
+}
+
+#csharp-circle {
+  width: 25%;
+  height: 25%;
+}
+
+#java-circle {
+  width: 25%;
+  height: 25%;
+}
+
+#html-circle {
+  width: 25%;
+  height: 25%;
+}
+
+#css-circle {
+  width: 25%;
+  height: 25%;
+}
+
+#jquery-circle {
+  width: 25%;
+  height: 25%;
+}
+
+#php-circle {
+  width: 25%;
+  height: 25%;
+}
+
+#sql-circle {
+  width: 25%;
+  height: 25%;
+}
+
+#windows-circle {
+  width: 25%;
+  height: 25%;
+}
+
+#mac-circle {
+  width: 25%;
+  height: 25%;
+}
+
+#linux-circle {
+  width: 25%;
+  height: 25%;
+}
+
+#server-circle {
+  width: 25%;
+  height: 25%;
+}
+
+#vbox-circle {
+  width: 25%;
+  height: 25%;
+}
