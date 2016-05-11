@@ -55,7 +55,7 @@
 &lt;h3 id=&#34;sql-code:1e080c892326e5bba749587eba8bcf9e&#34;&gt;SQL Code&lt;/h3&gt;
 
 &lt;blockquote&gt;
-&lt;h3 id=&#34;databasa-maken:1e080c892326e5bba749587eba8bcf9e&#34;&gt;Databasa maken&lt;/h3&gt;
+&lt;h3 id=&#34;database-maken:1e080c892326e5bba749587eba8bcf9e&#34;&gt;Database maken&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;CREATE SCHEMA gip_taak_08_CoussementYordi;
 use gip_taak_08_CoussementYordi;
