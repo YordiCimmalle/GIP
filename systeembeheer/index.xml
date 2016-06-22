@@ -6,7 +6,7 @@
     <description>Recent content in Systeembeheers on GIP 2015-2016 Yordi Coussement</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Apr 2016 18:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jun 2016 13:00:00 +0200</lastBuildDate>
     <atom:link href="http://yordicimmalle.github.io/GIP/systeembeheer/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -33,6 +33,57 @@ Het alternatief in de toekomst zal waarschijnlijk de Cloud worden. Hiermee bedoe
 &lt;p&gt;Is Citrix eigenlijk wel veilig? Het antwoord op deze vraag is vrij gemakkelijk. Citrix is een veilig platform. Het maakt gebruik van het HTTPS protocol wat zorgt voor een veilige verbinding met het internet. Alle gegevens worden dus versleuteld, waardoor niemand te weten kan komen welke gegevens je allemaal uitwisselt. De techniek hierachter is de SSL verbinding. Die verbinding wordt samengevoegd met een HTTP verbinding waarin de SSL verbinding het HTTP verkeer versleuteld.&lt;/p&gt;
 
 &lt;p&gt;Uiteindelijk kan je dus concluderen dat Citrix de ideale toepassing is om van thuis uit te kunnen werken. Je hebt toegang tot verschillende centrale applicaties en centrale data, waardoor je thuis eigenlijk kan werken zoals dat je op het bedrijf zelf zou werken. Uiteraard is er wel een serieus kostenplaatje aan verbonden, maar gezien de mogelijkheden is het de prijs wel waard.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Testopstelling</title>
+      <link>http://yordicimmalle.github.io/GIP/systeembeheer/testopstelling/</link>
+      <pubDate>Wed, 22 Jun 2016 13:00:00 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/systeembeheer/testopstelling/</guid>
+      <description>
+
+&lt;h1 id=&#34;mobile-device-management-spiceworks:c36ee4a195c72d275a44931f82064b64&#34;&gt;Mobile Device Management: Spiceworks&lt;/h1&gt;
+
+&lt;p&gt;Spiceworks is een MDM (Mobile Device Management). Dit wil zeggen dat je gaat proberen om mobiele toestellen te controleren en beheren via een computer. We hebben het native laten draaien op de computer van Yordi met een Windows als OS. Hiervoor hebben we ook de Spiceworks trial gebruikt. Dit project is getest met oog op mogelijke ingebruikname door de school.&lt;/p&gt;
+
+&lt;p&gt;We hadden de bedoeling om verschillende opties te testen. Zo wilden we testen of het aantal gekoppelde apparaten correct was en er een correcte scheiding tussen de hoeveelheid Android en iOS apparaten was. Ook wilden we testen of we de informatie van de eigenaar van het mobiele toestel konden zien en of we de geïnstalleerde apps konden bekijken.
+Indien de vorige opties werkten, waren we van plan om eenmalig $4 te betalen om extra functies te testen, zoals bijvoorbeeld het bepalen van de juiste locatie van een gekoppeld apparaat indien we dit willen opzoeken/opvragen.&lt;/p&gt;
+
+&lt;p&gt;Om te beginnen hebben we de trial-versie van Spiceworks geïnstalleerd. Om dit te doen moesten we wel een gebruikersnaam aanmaken op de website. Dit verliep vrij tot zeer vlot. Eens dat gebeurd was, kwamen we terecht op een localhost pagina waar we enkele stappen moesten volgen om de installatie te voltooien. We moeten een gebruikersnaam, wachtwoord en bedrijfsnaam ingeven. Wanneer deze stappen klaar waren, kwamen tot het punt om Spiceworks te testen.&lt;/p&gt;
+
+&lt;p&gt;Als eerste stap in het testproces hebben we een gebruiker aangemaakt. Hiermee bedoelen we de eigenaar van een mobiel apparaat dat in het systeem zit. In het begin was dit even uitzoeken, maar uiteindelijke lukte het wel om een gebruiker correct aan te maken.
+Vervolgens kreeg de gebruiker een e-mail om zijn account te verifiëren door middel van een link en wachtwoord.
+Hierna wordt je doorgeleid naar een pagina die verwijst naar de Google Play Store om de app te downloaden. Indien je een Android toestel hebt, heet de app ‘MaaS360 MDM for Android’. Beschik je over een iOS apparaat, dan heet de app ‘MaaS360 for iOS.
+Als je de app opent moet je eerst de bedrijfs-ID en je e-mailadres ingeven. Wanneer je op ‘doorgaan’ hebt geklikt, moet je legitimatiegegevens invoeren. Uiteindelijk wordt MaaS360 geactiveerd op je toestel.
+Als voorlaatste stap moet je de Apparaatbeheerder toegang geven tot je toestel, zodat hij bijvoorbeeld alle gegevens kan wissen, wachtwoorden wijzigen enz. Tot slot wordt je toestel geconfigureerd.&lt;/p&gt;
+
+&lt;p&gt;Uiteindelijk is gebleken dat Spiceworks niet werkt. Er was niets te zien op het dashbord en een mobiel apparaat konden we ook niet registreren, ook al was het correct geconfigureerd op het toestel zelf.
+Nadat we tot de conclusie kwamen dat Spiceworks niet meer werkte, hebben we besloten niet op te geven. We hebben nog een viertal uurtjes geprobeerd om het te laten werken, we hebben tutorials gevolgd op Youtube en dergelijke, maar niets zorgde ervoor dat het werkte.
+Desondanks het feit dat de tool niet werkte zoals we gehoopt hadden, kunnen we wel al bepaalde zaken concluderen nadat we de tutorials hebben gevolgd en uit eigen ontdekkingen tijdens het uitvoeren van de testen.&lt;/p&gt;
+
+&lt;p&gt;Als eerste punt, en misschien wel het meest interessante voor de school, is dat je accounts uit de AD (Active Directory) kan implementeren in Spiceworks. Vervolgens is het ook mogelijk om een overzicht te hebben over het aantal Android, Windows en iOS apparaten. Aangezien Spiceworks een gratis basis versie heeft, veronderstellen we dat de school wel wil investeren in de $4 per apparaat. Hierdoor wordt het ook mogelijk om verloren apparaten te traceren. Indien iemand zijn wachtwoord kwijt is, kan de beheerder een password-reset uitvoeren. Hierdoor zal de gebruiker een nieuw wachtwoord kunnen ingeven.
+Het meest interessante voor de school zal ongetwijfeld zijn dat men websites kan blokkeren. Zo is men dus zeker dat ‘foute’ of illegale websites niet bezocht worden.&lt;/p&gt;
+
+&lt;h3 id=&#34;enkele-screenshots:c36ee4a195c72d275a44931f82064b64&#34;&gt;Enkele screenshots&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/gsm/001.jpeg&#34; alt=&#34;alt text&#34; title=&#34;Installatiemail&#34; /&gt;
+
+&lt;img src=&#34;../../img/gsm/002.jpeg&#34; alt=&#34;alt text&#34; title=&#34;Weblink om naar Google Play Store te gaan&#34; /&gt;
+
+&lt;img src=&#34;../../img/gsm/003.jpeg&#34; alt=&#34;alt text&#34; title=&#34;MaaS360 app&#34; /&gt;
+
+&lt;img src=&#34;../../img/gsm/004.jpeg&#34; alt=&#34;alt text&#34; title=&#34;Bedrijf registreren aan de hand van de MDM op desktop&#34; /&gt;
+
+&lt;img src=&#34;../../img/gsm/005.jpeg&#34; alt=&#34;alt text&#34; title=&#34;Toegangscode ingeven die te vinden is op de desktop MDM&#34; /&gt;
+
+&lt;img src=&#34;../../img/gsm/006.jpeg&#34; alt=&#34;alt text&#34; title=&#34;MaaS360 wordt geactiveerd&#34; /&gt;
+
+&lt;img src=&#34;../../img/gsm/007.jpeg&#34; alt=&#34;alt text&#34; title=&#34;Apparaatbeheer activeren&#34; /&gt;
+
+&lt;img src=&#34;../../img/gsm/008.jpeg&#34; alt=&#34;alt text&#34; title=&#34;De Werkplek wordt geconfigureerd&#34; /&gt;
+&lt;/p&gt;
 </description>
     </item>
     

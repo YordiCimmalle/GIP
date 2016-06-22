@@ -6,8 +6,59 @@
     <description>Recent content on GIP 2015-2016 Yordi Coussement</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 May 2016 18:07:12 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jun 2016 13:00:00 +0200</lastBuildDate>
     <atom:link href="http://yordicimmalle.github.io/GIP/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Testopstelling</title>
+      <link>http://yordicimmalle.github.io/GIP/systeembeheer/testopstelling/</link>
+      <pubDate>Wed, 22 Jun 2016 13:00:00 +0200</pubDate>
+      
+      <guid>http://yordicimmalle.github.io/GIP/systeembeheer/testopstelling/</guid>
+      <description>
+
+&lt;h1 id=&#34;mobile-device-management-spiceworks:c36ee4a195c72d275a44931f82064b64&#34;&gt;Mobile Device Management: Spiceworks&lt;/h1&gt;
+
+&lt;p&gt;Spiceworks is een MDM (Mobile Device Management). Dit wil zeggen dat je gaat proberen om mobiele toestellen te controleren en beheren via een computer. We hebben het native laten draaien op de computer van Yordi met een Windows als OS. Hiervoor hebben we ook de Spiceworks trial gebruikt. Dit project is getest met oog op mogelijke ingebruikname door de school.&lt;/p&gt;
+
+&lt;p&gt;We hadden de bedoeling om verschillende opties te testen. Zo wilden we testen of het aantal gekoppelde apparaten correct was en er een correcte scheiding tussen de hoeveelheid Android en iOS apparaten was. Ook wilden we testen of we de informatie van de eigenaar van het mobiele toestel konden zien en of we de geïnstalleerde apps konden bekijken.
+Indien de vorige opties werkten, waren we van plan om eenmalig $4 te betalen om extra functies te testen, zoals bijvoorbeeld het bepalen van de juiste locatie van een gekoppeld apparaat indien we dit willen opzoeken/opvragen.&lt;/p&gt;
+
+&lt;p&gt;Om te beginnen hebben we de trial-versie van Spiceworks geïnstalleerd. Om dit te doen moesten we wel een gebruikersnaam aanmaken op de website. Dit verliep vrij tot zeer vlot. Eens dat gebeurd was, kwamen we terecht op een localhost pagina waar we enkele stappen moesten volgen om de installatie te voltooien. We moeten een gebruikersnaam, wachtwoord en bedrijfsnaam ingeven. Wanneer deze stappen klaar waren, kwamen tot het punt om Spiceworks te testen.&lt;/p&gt;
+
+&lt;p&gt;Als eerste stap in het testproces hebben we een gebruiker aangemaakt. Hiermee bedoelen we de eigenaar van een mobiel apparaat dat in het systeem zit. In het begin was dit even uitzoeken, maar uiteindelijke lukte het wel om een gebruiker correct aan te maken.
+Vervolgens kreeg de gebruiker een e-mail om zijn account te verifiëren door middel van een link en wachtwoord.
+Hierna wordt je doorgeleid naar een pagina die verwijst naar de Google Play Store om de app te downloaden. Indien je een Android toestel hebt, heet de app ‘MaaS360 MDM for Android’. Beschik je over een iOS apparaat, dan heet de app ‘MaaS360 for iOS.
+Als je de app opent moet je eerst de bedrijfs-ID en je e-mailadres ingeven. Wanneer je op ‘doorgaan’ hebt geklikt, moet je legitimatiegegevens invoeren. Uiteindelijk wordt MaaS360 geactiveerd op je toestel.
+Als voorlaatste stap moet je de Apparaatbeheerder toegang geven tot je toestel, zodat hij bijvoorbeeld alle gegevens kan wissen, wachtwoorden wijzigen enz. Tot slot wordt je toestel geconfigureerd.&lt;/p&gt;
+
+&lt;p&gt;Uiteindelijk is gebleken dat Spiceworks niet werkt. Er was niets te zien op het dashbord en een mobiel apparaat konden we ook niet registreren, ook al was het correct geconfigureerd op het toestel zelf.
+Nadat we tot de conclusie kwamen dat Spiceworks niet meer werkte, hebben we besloten niet op te geven. We hebben nog een viertal uurtjes geprobeerd om het te laten werken, we hebben tutorials gevolgd op Youtube en dergelijke, maar niets zorgde ervoor dat het werkte.
+Desondanks het feit dat de tool niet werkte zoals we gehoopt hadden, kunnen we wel al bepaalde zaken concluderen nadat we de tutorials hebben gevolgd en uit eigen ontdekkingen tijdens het uitvoeren van de testen.&lt;/p&gt;
+
+&lt;p&gt;Als eerste punt, en misschien wel het meest interessante voor de school, is dat je accounts uit de AD (Active Directory) kan implementeren in Spiceworks. Vervolgens is het ook mogelijk om een overzicht te hebben over het aantal Android, Windows en iOS apparaten. Aangezien Spiceworks een gratis basis versie heeft, veronderstellen we dat de school wel wil investeren in de $4 per apparaat. Hierdoor wordt het ook mogelijk om verloren apparaten te traceren. Indien iemand zijn wachtwoord kwijt is, kan de beheerder een password-reset uitvoeren. Hierdoor zal de gebruiker een nieuw wachtwoord kunnen ingeven.
+Het meest interessante voor de school zal ongetwijfeld zijn dat men websites kan blokkeren. Zo is men dus zeker dat ‘foute’ of illegale websites niet bezocht worden.&lt;/p&gt;
+
+&lt;h3 id=&#34;enkele-screenshots:c36ee4a195c72d275a44931f82064b64&#34;&gt;Enkele screenshots&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/gsm/001.jpeg&#34; alt=&#34;alt text&#34; title=&#34;Installatiemail&#34; /&gt;
+
+&lt;img src=&#34;../../img/gsm/002.jpeg&#34; alt=&#34;alt text&#34; title=&#34;Weblink om naar Google Play Store te gaan&#34; /&gt;
+
+&lt;img src=&#34;../../img/gsm/003.jpeg&#34; alt=&#34;alt text&#34; title=&#34;MaaS360 app&#34; /&gt;
+
+&lt;img src=&#34;../../img/gsm/004.jpeg&#34; alt=&#34;alt text&#34; title=&#34;Bedrijf registreren aan de hand van de MDM op desktop&#34; /&gt;
+
+&lt;img src=&#34;../../img/gsm/005.jpeg&#34; alt=&#34;alt text&#34; title=&#34;Toegangscode ingeven die te vinden is op de desktop MDM&#34; /&gt;
+
+&lt;img src=&#34;../../img/gsm/006.jpeg&#34; alt=&#34;alt text&#34; title=&#34;MaaS360 wordt geactiveerd&#34; /&gt;
+
+&lt;img src=&#34;../../img/gsm/007.jpeg&#34; alt=&#34;alt text&#34; title=&#34;Apparaatbeheer activeren&#34; /&gt;
+
+&lt;img src=&#34;../../img/gsm/008.jpeg&#34; alt=&#34;alt text&#34; title=&#34;De Werkplek wordt geconfigureerd&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Interactieve (client-side web-)applicatie</title>
@@ -455,22 +506,6 @@ Vandaag was een dag met allerlei vreemde problemen zoals anti virus die niet mee
 Daarna was er niets meer te doen en heb ik voor school gewerkt aangezien er toch enkele GIP taken klaar moeten zijn tegen het einde van de stage. Tussendoor heb ik nog kleine dingen gedaan zoals kabels en schermen opruimen en tot slot ben ik al begonnen aan het lijstje van de verschillende software die men hier gebruikt.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Ondanks de momenten dat ik niet veel te doen had, kan ik toch positief terugkijken op de eerste week. Ik heb heel wat nieuwe dingen bijgeleerd die zeer interessant zijn.&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://yordicimmalle.github.io/GIP/stage/dag%204/</link>
-      <pubDate>Thu, 14 Jan 2016 20:00:00 +0200</pubDate>
-      
-      <guid>http://yordicimmalle.github.io/GIP/stage/dag%204/</guid>
-      <description>
-
-&lt;h2 id=&#34;stageverslag-2016-01-14-donderdag:13803b7eb120056566b44ca99c955ee8&#34;&gt;Stageverslag 2016-01-14 (Donderdag)&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;De voorlaatste dag van deze week begon aangenamer dan de voorbije dagen. Ik kon meteen verder werken aan de pc’s die gisteren nog niet klaar waren. Wanneer dat gedaan was, heb ik meegeholpen om een vergaderzaal in orde te maken voor een cursus die gegeven ging worden over een bepaald tekenprogramma. Tussendoor heb ik ook nog 3 laptop’s in orde gemaakt en 1 laptop meer RAM gegeven. Vervolgens kreeg ik de opdracht om in elke vergaderzaal de achtergrond van Clickshare aan te passen, maar omdat de zalen allemaal bezet waren heb ik dit nog niet kunnen doen.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Na de middag was mijn stagementor op een andere locatie om iets op de te lossen (Van Roey heeft verschillende vestigingen over Vlaanderen). Dit heb ik opgevuld met een opzoek taak die hij mij gegeven heeft en nog wat schooltaken. Tussendoor ben ik af en toe nog mee geweest naar collega’s die probleempjes hebben. Dit deed ik met de persoon die me al de hele week met alles helpt en me heel veel uitlegt en bijleert. Op het einde liet deze persoon me ook nog een helpdesktool zien die ze hier in het bedrijf gebruiken om problemen op te lossen en mensen verder te helpen. De functies van dit systeem zijn enorm. Het gaat zelfs zo ver dat men exact kan zien hoeveel procent van het aantal computerschermen van Samsung zijn of van een ander merk.&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
